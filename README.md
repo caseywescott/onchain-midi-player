@@ -247,6 +247,9 @@ The tools the skills use need Node 22 or later and a clone whose `VERSION` match
 - [`scripts/page_versions.json`](scripts/page_versions.json): the current `version()`'s engine commit, page revision and hashes (earlier versions are in its git history)
 - [Development](docs/development.md): toolchain, build, tests and CI, for contributors
 
+## Credits
+  - **Casey Wescott** ([@caseywescott](https://github.com/caseywescott)): co-designer of onchain-midi-player
+
 ## License
 
 Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE). The embedded TinySynth engine is also Apache-2.0: copyright Tatsuya Shinyagaito (g200kg), modified by Provable Games in <https://github.com/Provable-Games/webaudio-tinysynth>. The page's gunzip shim is derived from fflate, MIT License, Copyright (c) 2026 Arjun Barrett ([text](tests/vendor/fflate-0.8.3.LICENSE)). The class's base64 encoder is the `game_components_encoding` package of [game-components](https://github.com/Provable-Games/game-components), MIT License, Copyright (c) 2026 Provable Games ([text](tests/vendor/game-components.LICENSE)). `license()` includes all four notices.
